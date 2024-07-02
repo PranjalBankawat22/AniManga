@@ -1,0 +1,5 @@
+.ContinueWatching{
+    height: 550px;
+    @apply block m-10;
+}
+

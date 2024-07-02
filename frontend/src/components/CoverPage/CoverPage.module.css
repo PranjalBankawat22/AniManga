@@ -1,0 +1,48 @@
+.CoverImage{
+    @apply flex w-full items-center justify-center my-16;
+    height: 500px;
+}
+
+.LeftBox{
+    @apply w-1/2 block relative mr-20
+}
+
+.AnimeName{
+    @apply text-5xl font-bold italic tracking-wide text-gray-300
+}
+
+.AnimeGenres{
+    @apply flex items-center justify-start my-10 
+}
+
+.AnimeGenre{
+    @apply mr-4 p-2 px-5 border border-gray-400 rounded-xl bg-customColor-navbar focus:outline-none
+}
+
+.AnimeAbout{
+    @apply block w-2/3 text-gray-300 italic tracking-wide
+}
+
+.AnimeCTA{
+    @apply flex mt-10
+}
+
+.AnimeWatchCTA, .AnimeSaveCTA{
+    @apply mr-5 p-2 px-5 rounded-xl bg-customColor-navbar focus:outline-none font-normal cursor-pointer
+}
+
+.AnimeWatchCTA{
+    @apply bg-customColor-orange text-white
+}
+
+.AnimeSaveCTA{
+    @apply border border-gray-400
+}
+.RightBox{
+    @apply h-full w-80 relative
+}
+
+.AnimeImage{
+    height: 100%;
+    width: 350px;
+}

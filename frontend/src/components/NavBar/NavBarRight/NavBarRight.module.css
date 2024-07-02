@@ -1,0 +1,13 @@
+.LoginButton{
+    @apply 
+    px-3
+    py-1
+    m-2 
+    mr-10 
+    block 
+    border 
+    border-customColor-orange 
+    hover:bg-customColor-orange
+    hover:text-white
+    rounded-3xl;
+}

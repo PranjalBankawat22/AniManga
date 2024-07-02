@@ -1,0 +1,20 @@
+.ContinueWatching{
+    height: 550px;
+    @apply block m-10;
+}
+
+.ContinueWatchingTitle{
+    @apply text-3xl font-bold italic tracking-wide text-customColor-orange pb-10 border-b-2
+}
+
+.AnimeContainer{
+    @apply flex items-center justify-start h-3/4 overflow-x-auto
+}
+
+.Anime{
+    @apply h-full relative
+}
+
+.Anime{
+    width: 400px;
+}
